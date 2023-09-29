@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Yantramanav:wght@500&display=swap');
+body {background-color: #394d5c; color:#ced4da;
+    font-family: 'yantramanav', sans-serif;}
+			.titre { width : auto ;  clear:left; float:left; }
+			.zone { float : left; color:#CC8855 }
+
+      .form-group {
+        margin-bottom: 1rem;
+      }
+      
+      .titre {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+      
+      .zone {
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        width: 100%;
+      }
+      
+      
+      .titre {
+				text-align: center;
+				font-size: 28px;
+				font-weight: bold;
+				margin-bottom: 20px;
+			}
+			table {
+				border-collapse: collapse;
+				margin: 0 auto;
+				background-color: #333;
+				color: white;
+			}
+			th, td {
+				padding: 10px;
+				border: 1px solid white;
+			}
+			th {
+				background-color: #555;
+				font-weight: bold;
+			}
+			input[type="text"], select {
+				width: 60px;
+				padding: 5px;
+				border-radius: 5px;
+				border: none;
+				background-color: #555;
+				color: white;
+				font-size: 16px;
+			}
+			select {
+				height: 80px;
+			}
+			option {
+				background-color: #333;
+			}
+
+
+
+      .tr {
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .e {
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+    }
+    input[type="reset"], input[type="submit"] {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #0077cc;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    input[type="reset"]:hover, input[type="submit"]:hover {
+        background-color: #005ea6;
+    }

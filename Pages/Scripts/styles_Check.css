@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Yantramanav:wght@500&display=swap');
+body{
+    font-family: 'yantramanav', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #59e1d9;
+}
+label{
+
+    font-size: 2em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+button{
+    background-color: #4ca3af;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    trasition: background-color 0.3s;
+}
+button:hover{
+    background-color: #020e26;
+}

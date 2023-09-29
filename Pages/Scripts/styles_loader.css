@@ -1,0 +1,20 @@
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    border-top-color: #3498db;
+    animation: loader 1s infinite linear;
+}
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+#loader.hide {
+    opacity: 0;
+    pointer-events: none;
+}
